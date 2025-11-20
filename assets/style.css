@@ -1,21 +1,8 @@
-.lensdigital-seo-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-.lensdigital-seo-table th, .lensdigital-seo-table td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: left;
-    vertical-align: top;
-}
-.lensdigital-seo-table tr:nth-child(odd) {
-    background-color: #f9f9f9;
-}
-.lensdigital-seo-table th {
-    background-color: #333;
-    color: #fff;
-}
-.lensdigital-seo-table ul {
-    margin: 0;
-    padding-left: 20px;
-}
+/* LensDigital SEO table styles */
+.lensdigital-seo-table { width:100%; border-collapse:collapse; }
+.lensdigital-seo-table th, .lensdigital-seo-table td { border:1px solid #ddd; padding:8px; vertical-align:top; }
+.lensdigital-seo-table tr:nth-child(even) { background:#f9f9f9; }
+.lensdigital-seo-table th { background:#333; color:#fff; text-align:left; }
+
+/* Small screens */
+@media (max-width:900px){ .lensdigital-seo-table td { font-size:13px; } }
